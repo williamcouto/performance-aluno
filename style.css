@@ -1,0 +1,99 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+@font-face{
+    font-family: 'Accuratis';
+    src: url(fonts/Accuratist.otf)
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+h1{
+    font-family: 'Accuratis', Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 30pt;
+    color: white;
+    padding: 10px;
+    line-height: 1.6em;
+    font-weight: lighter;
+}
+
+input{
+    display: block;
+    font-family: 'Inter', Arial, sans-serif;
+    font-size: 15px;
+    width: 100px;
+    height: 25px;
+    padding: 5px;
+    margin: 2px;
+    border-radius: 10px;
+    border: inset rgba(0, 0, 0, 0.252);
+}
+
+label{
+    display: block;
+    font-family: 'Inter', arial;
+    font-size: 16px;
+    padding: 8px;
+    text-align: left;
+}
+
+body{
+    background-color: #00674C;
+    font-weight: bold;
+}
+
+main{
+    background-color: #E8F3F5;
+    color: black;
+    padding: 9px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.259) 6px 3px 7px;
+    max-width: 280px;
+    height: 480px;
+}
+
+div#res{
+    font-family: 'Raleway', Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    padding: 13px;
+    width: 255px;
+    height: 30px;
+    border-radius: 16px;
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+    color: white;
+    line-height: 2em;
+    letter-spacing: 2px;
+}
+
+.bttn{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    border-radius: 8px;
+    border: none;
+    background-color: rgb(31, 31, 107);
+    color: #fff;
+    width: 170px;
+    height: 45px;
+    position:relative; 
+    margin-top: 25px;
+}
+
+.bttn:hover{
+    transform: translate(2px, 1px);
+    background-color: #7dd7fe;
+    color: black;   
+}

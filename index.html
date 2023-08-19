@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="study.ico" type="image/x-icon">
+    <title>Calcule a média dos Alunos</title>
+    <link rel="stylesheet" href="style.css">     
+</head>
+<body> 
+    <h1>Média dos Alunos</h1>
+    <main>
+        <label>Primeira Nota:</label>
+        <input type="number" name="num1" id="num1" required> 
+        
+        <label>Segunda Nota:</label>
+        <input type="number" name="num2" id="num2" required>
+
+        <label>Terceira Nota:</label> 
+        <input type="number" name="num3" id="num3"  required>
+
+        <label>Quarta Nota:</label>
+        <input type="number" name="num4" id="num4" required>
+    
+        <input type="button" class="bttn" value="CALCULAR" onclick="CalcMedia()">
+        <div id="res"></div>
+    </main>
+    <script src="media.js"></script>
+</body>
+</html>
